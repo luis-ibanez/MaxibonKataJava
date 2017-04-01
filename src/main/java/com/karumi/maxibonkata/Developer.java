@@ -37,6 +37,10 @@ class Developer {
     return numberOfMaxibonsToGrab;
   }
 
+  public String getPresentation(){
+    return "I'm the new, I'm " + name + " and I'm like to grab "+ numberOfMaxibonsToGrab + " maxibons";
+  }
+
   @Override public String toString() {
     return "Developer{"
         + "name='" + name + '\''
